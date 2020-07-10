@@ -42,13 +42,14 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 html {
   font-size: 12px;
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #1f2044;
 }
 
@@ -95,7 +96,7 @@ img {
 /* 1.2 Typography */
 
 .font-custom {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .text-primary {
@@ -657,7 +658,7 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
 	right: 0;
 	bottom: 0;
 	height: .375rem;
-	background: #78acd9;
+	background: #0aaf57;
 }
 
 .menu-ornament:before,
@@ -1818,7 +1819,7 @@ h3.slide-title {
 	font-size: 3.125rem;
 	line-height: 1;
 	font-weight: 600;
-	color: #78acd9;
+	color: #0aaf57;
 }
 
 .client-item-title {
@@ -2136,23 +2137,23 @@ h3.slide-title {
 
 .is-dark::selection,
 .is-dark ::selection {
-  background-color: #78acd9;
+  background-color: #0aaf57;
   color: #ffffff;
 }
 
 .is-dark::-moz-selection,
 .is-dark ::-moz-selection {
-  background-color: #78acd9;
+  background-color: #0aaf57;
   color: #ffffff;
 }
 
 .is-dark,
 .is-dark .pp-scrollable {
-	background-color: #3c3c59;
+	background-color: #0E8A4C;
 }
 
 .is-dark .slide-dark {
-	background-color: #32324c;
+	background-color: #0E8A4C;
 }
 
 .is-dark,
@@ -2186,8 +2187,8 @@ h3.slide-title {
 
 .is-dark .menu-main .active a,
 .is-dark .menu-main a:hover {
-	background-color: #78acd9;
-	box-shadow: #78acd9 0 0 0 2px
+	background-color: #0aaf57;
+	box-shadow: #0aaf57 0 0 0 2px
 }
 
 .is-dark a:not(:hover) .icon-behance {
@@ -2207,8 +2208,8 @@ h3.slide-title {
 }
 
 .is-dark .slide-title .text-typed {
-	background-color: #78acd9;
-	box-shadow: #78acd9 0 0 0 5px;
+	background-color: #0aaf57;
+	box-shadow: #0aaf57 0 0 0 5px;
 }
 
 .is-dark .slide-descr,
@@ -2218,11 +2219,11 @@ h3.slide-title {
 .is-dark .reward-item-descr,
 .is-dark .testimonial-item-author-status,
 .is-dark .client-item-descr {
-	color: #b4b4d5;
+	color: #d6d6b6;
 }
 
 .is-dark .rounded-text textPath {
-	fill: #b4b4d5;
+	fill: #d6d6b6;
 }
 
 .is-dark .lines > div {
