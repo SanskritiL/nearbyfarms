@@ -22,6 +22,36 @@
   </head>
 
   <body class="body-piling is-dark">
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v7.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="105758537881980"
+    theme_color="#67b868"
+    logged_in_greeting="Hi! Welcome to Nearby Farms. How can we help you?"
+    logged_out_greeting="Hi! Welcome to Nearby Farms. How can we help you?">
+    </div>
+
+    
+<!--End of the chat-->
     <div class="wrapper">
       <header id="header" class="header">
         <div class="container-fluid">
@@ -666,13 +696,14 @@
           <div class="copyright">© Nearbyfarms 2020.</div>
           <div class="footer-social">
             <ul class="social">
-              <li><a href="#"><i class="icon-behance"></i></a></li>
+              <!--Needs some update-->
+              <!-- <li><a href="#"><i class="icon-behance"></i></a></li>
               <li><a href="#"><i class="icon-dribbble"></i></a></li>
-              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin"></i></a></li> -->
             </ul>
             <div class="chat">
               <div class="chat-title">Let’s chat</div>
-              <a href="#" class="chat-btn has-new"><i class="icon-chat"></i></a>
+              <a href="https://m.me/105758537881980" class="chat-btn has-new"><i class="icon-chat"></i></a>
             </div>
           </div>
         </div>
