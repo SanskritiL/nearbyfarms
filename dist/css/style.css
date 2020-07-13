@@ -2350,7 +2350,7 @@ h3.slide-title {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1400px) {
   html {
     font-size: 15px;
   }
