@@ -671,7 +671,7 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
 }
 
 .menu-ornament:before {
-  background: #464989;
+  background: #095c33;
   left: 0;
 }
 
@@ -2156,7 +2156,7 @@ h3.slide-title {
 }
 
 .is-dark .menu {
-  background-color: #202044;
+  background-color: #095c33;
 }
 
 .is-dark .hide-menu {
@@ -2350,7 +2350,7 @@ h3.slide-title {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1280px) {
   html {
     font-size: 15px;
   }
